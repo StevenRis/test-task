@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*10px*/
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  background: linear-gradient(107.81deg, #2e22ab 9.97%, #cf469f 90.03%);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 80vw;
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .header__left-block-border {
+    border: 8px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .header__logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 73px;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+  }
+
+  .header__links {
+    display: flex;
+  }
+
+  .header__link {
+    padding: 0 2em;
+  }
+
+  a {
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    color: #ee8c19;
+  }
+
+  .vert-line {
+    position: relative;
+    width: 0px;
+    height: 30px;
+    left: 0;
+    top: -4px;
+    border: 1px solid #fff;
+  }
+
+  .header__descr {
+    display: grid;
+    grid-template-columns: 57% 43%;
+    justify-content: space-between;
+  }
+
+  .descr__left-block {
+    padding: 10em 15em 0 6em;
+    color: #ffffff;
+  }
+
+  .left-block__title {
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 61px;
+  }
+
+  .left-block__subtitle {
+    font-family: 'Montserrat', sans-serif;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
+  }
+
+  .left-block__btns {
+    padding: 33px 0;
+  }
+
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 24px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 8px 50px;
+    margin: 0 33px 0 0px;
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .btn:hover {
+    color: #ee8c19;
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .descr__right-block img {
+    position: relative;
+    bottom: 50px;
+  }
+
+  //   .right-block__image {
+  //     // position: relative;
+  //     // width: 1920px;
+  //     // height: 889px;
+  //     // left: 0px;
+  //     // top: 0px;
+  //   }
+}
+
+// .curved {
+//   position: relative;
+// }
+
+.curved {
+  position: relative;
+  background: #fff;
+  width: 2500px;
+  height: 397px;
+  bottom: 220px;
+  right: 300px;
+  border-radius: 50%;
+}
+
+.about {
+  height: 150vh;
+  position: relative;
+  top: -510px;
+}
+
+.about__header {
+  padding: 3em 0;
+}
+
+.about__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 61px;
+  text-align: center;
+}
+
+.about__items {
+  //   border: 1px solid black;
+}
+
+.about__item {
+  display: flex;
+  position: relative;
+  height: 330px;
+  //   border: 1px solid black;
+}
+
+.about__item-image-left {
+  position: absolute;
+  left: 150px;
+}
+
+.about__item-image-right {
+  position: absolute;
+  right: 100px;
+  top: -170px;
+}
+
+.rotated {
+  transform: rotate(-20.93deg);
+}
+
+.about__item-text-left {
+  padding: 2em 0;
+  position: relative;
+  top: 20px;
+  left: 500px;
+  max-width: 230px;
+  height: 220px;
+  display: flex;
+  align-items: end;
+}
+
+.about__item-text-right {
+  padding: 2em 0;
+  position: relative;
+  bottom: 0px;
+  left: 700px;
+  max-width: 230px;
+  height: 220px;
+  display: flex;
+  align-items: end;
+}
+
+.step__4 {
+  position: relative;
+  bottom: 0px;
+  left: 1000px;
+}
+
+.item__title {
+  display: flex;
+  font-family: 'Love Ya Like A Sister', sans-serif;
+  align-items: center;
+  color: #ee8c19;
+}
+
+.title__accent {
+  font-weight: 400;
+  font-size: 7rem;
+  line-height: 36px;
+}
+.title {
+  position: relative;
+  top: -5px;
+  left: 20px;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: 36px;
+  max-width: 168px;
+}
+
+.item__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  width: 296px;
+  padding-top: 0.8em;
+}
+
+.about__item-arrow-left {
+  position: relative;
+  top: 70px;
+  left: 50px;
+}
+
+.about__item-arrow-right {
+  position: relative;
+  top: 130px;
+  right: 50px;
+}
+
+.step__4-img {
+  transform: rotate(-75.56deg);
+  position: absolute;
+  right: 530px;
+  top: 50px;
+}
+
+.about__footer {
+  padding: 30em 0 10em 0;
+  text-align: center;
+}
+
+.footer__title {
+  font-family: 'Love Ya Like A Sister', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 36px;
+  color: #ee8c19;
+}
+
+.price-section {
+  height: 1120px;
+  background: linear-gradient(123.15deg, #2e158b 25.79%, #531594 72.06%);
+}
+
+.price__header {
+  display: flex;
+  padding: 5em 0 11em;
+}
+
+.price__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #fff;
+}
+
+.price__subtitle {
+  position: relative;
+  top: 33px;
+  left: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 18px;
+  color: #fff;
+}
+
+.price-body {
+  height: 820px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.small-phone {
+  position: relative;
+}
+
+.small-phone img {
+  position: absolute;
+  top: -85px;
+  left: 5px;
+}
+
+.price-body__text {
+  padding: 3em 0 3em 13em;
+}
+
+.price-body__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 24px;
+}
+
+.price-body__title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 49px;
+}
+
+.price__versions {
+  border-top: 1px solid #f5b035;
+  border-bottom: 1px solid #f5b035;
+  padding: 2em 24em 4em 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.basic-version {
+  text-align: center;
+  padding: 0 12em 0 0;
+}
+.basic-version__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 24px;
+  color: #ee8c19;
+}
+.basic-version__price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 30px;
+  padding: 2em 0 0 0;
+  max-width: 130px;
+}
+.premium-version {
+}
+
+.discount {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 30px;
+  color: #2fa600;
+}
+
+.price-func {
+  padding: 3em 4em;
+}
+
+.func__list {
+  display: grid;
+  grid-template-columns: 65% 15% 15%;
+}
+.list__item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 40px;
+}
+
+.list__item img {
+  color: #ee8c19;
+}
+
+.register {
+  padding: 2em 0;
+}
+
+.register__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.reg-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 24px;
+  border: 1px solid #e15702;
+  border-radius: 5px;
+  padding: 8px 50px;
+  margin: 0 33px 0 0px;
+  color: #fff;
+  background-color: transparent;
+  color: #e15702;
+}
+
+.reg-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(180deg, #f3a300 0%, #f07a13 100%);
+}
