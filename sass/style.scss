@@ -322,7 +322,7 @@ body {
 }
 
 .price-body {
-  height: 820px;
+  //   height: 820px;
   background-color: #fff;
   border-radius: 5px;
 }
@@ -417,7 +417,7 @@ body {
 }
 
 .register {
-  padding: 2em 0;
+  padding: 0 4em 3em 4em;
 }
 
 .register__title {
@@ -425,6 +425,10 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+}
+
+.reg__btns {
+  padding: 2em 0;
 }
 
 .reg-btn {
