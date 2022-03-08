@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
+      <div id="tr"></div>
       <div class="container">
         <div class="header__nav">
           <div class="header__left-block header__left-block-border">
@@ -24,8 +25,8 @@
               </div>
               <div class="vert-line"></div>
               <div class="header__links-items">
-                <a href="#" class="header__link">Logowanie</a>
-                <a href="#" class="header__link">Rejestracja</a>
+                <a href="#login" class="header__link popup-link">Logowanie</a>
+                <a href="" class="header__link">Rejestracja</a>
               </div>
             </nav>
           </div>
@@ -41,8 +42,8 @@
               accumsan lacus vel facilisis.
             </div>
             <div class="left-block__btns">
-              <button class="btn">O aplikacji</button>
-              <button class="btn">Pobierz</button>
+              <button data-modal class="btn">O aplikacji</button>
+              <button data-modal class="btn">Pobierz</button>
             </div>
           </div>
           <div class="descr__right-block">
@@ -215,11 +216,39 @@
             <div class="register__title">Zarejestruj się i wyprobuj!</div>
             <div class="reg__btns">
               <button class="reg-btn">Rejestracja</button>
-              <button class="reg-btn">Logowanie</button>
+              <button class="reg-btn popup-link">Logowanie</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- modal -->
+    <div id="login" class="popup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#" class="popup__close close-popup">X</a>
+          <form class="popup__text">
+            <div class="popup__title">Logowanie</div>
+            <input
+              required
+              placeholder="Username"
+              name="name"
+              type="text"
+              class="popup__input"
+            />
+            <input
+              required
+              placeholder="Hasło"
+              name="password"
+              type="text"
+              class="popup__input"
+            />
+            <button class="log-btn">Zaloguj się</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
