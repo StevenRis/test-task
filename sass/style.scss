@@ -24,12 +24,12 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 80vw;
+  max-width: 1420px;
 
   .header__nav {
     display: flex;
     justify-content: space-between;
-    padding: 35px;
+    padding: 30px 0px;
   }
 
   .header__left-block-border {
@@ -42,20 +42,23 @@ body {
     font-size: 6rem;
     line-height: 73px;
     color: rgba(255, 255, 255, 0.2);
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
 
   .header__links {
     display: flex;
   }
 
+  .header__links-items {
+    padding-top: 10px;
+  }
+
   .header__link {
-    padding: 0 2em;
+    padding: 0px 20px;
   }
 
   a {
     font-family: 'Montserrat', sans-serif;
-
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -73,8 +76,9 @@ body {
     width: 0px;
     height: 30px;
     left: 0;
-    top: -4px;
+    top: 5px;
     border: 1px solid #fff;
+    margin: 0 1px;
   }
 
   .header__descr {
@@ -84,25 +88,23 @@ body {
   }
 
   .descr__left-block {
-    padding: 10em 15em 0 6em;
+    padding: 122px 58px;
     color: #ffffff;
   }
 
   .left-block__title {
     font-family: 'Montserrat', sans-serif;
-
     font-weight: 700;
     font-size: 5rem;
-    line-height: 61px;
   }
 
   .left-block__subtitle {
     font-family: 'Montserrat', sans-serif;
-
     font-style: normal;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 24px;
+    padding-top: 16px;
   }
 
   .left-block__btns {
@@ -113,13 +115,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    line-height: 24px;
     border: 1px solid #ffffff;
     border-radius: 5px;
-    padding: 8px 50px;
-    margin: 0 33px 0 0px;
+    margin: 0 29px 0 0px;
     color: #fff;
     background-color: transparent;
+    width: 180px;
+    height: 41px;
   }
 
   .btn:hover {
@@ -130,40 +132,30 @@ body {
 
   .descr__right-block img {
     position: relative;
-    bottom: 50px;
+    left: 78px;
+    bottom: 38px;
   }
-
-  //   .right-block__image {
-  //     // position: relative;
-  //     // width: 1920px;
-  //     // height: 889px;
-  //     // left: 0px;
-  //     // top: 0px;
-  //   }
 }
-
-// .curved {
-//   position: relative;
-// }
 
 .curved {
   position: relative;
   background: #fff;
   width: 2500px;
   height: 397px;
-  bottom: 220px;
+  bottom: 253px;
   right: 300px;
   border-radius: 50%;
 }
 
 .about {
-  height: 150vh;
+  height: 145vh;
   position: relative;
-  top: -510px;
+  top: -538px;
 }
 
 .about__header {
-  padding: 3em 0;
+  //   padding: 3em 0;
+  margin-bottom: 50px;
 }
 
 .about__title {
@@ -171,7 +163,6 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
-  line-height: 61px;
   text-align: center;
 }
 
@@ -186,15 +177,21 @@ body {
   //   border: 1px solid black;
 }
 
-.about__item-image-left {
+.phone1 {
   position: absolute;
-  left: 150px;
+  left: 73px;
 }
 
-.about__item-image-right {
+.phone3 {
   position: absolute;
-  right: 100px;
-  top: -170px;
+  left: 50px;
+  top: -58px;
+}
+
+.phone2 {
+  position: absolute;
+  top: -135px;
+  right: 0;
 }
 
 .rotated {
@@ -202,10 +199,10 @@ body {
 }
 
 .about__item-text-left {
-  padding: 2em 0;
+  //   padding: 2em 0;
   position: relative;
-  top: 20px;
-  left: 500px;
+  top: -14px;
+  left: 413px;
   max-width: 230px;
   height: 220px;
   display: flex;
@@ -213,10 +210,10 @@ body {
 }
 
 .about__item-text-right {
-  padding: 2em 0;
+  //   padding: 2em 0;
   position: relative;
-  bottom: 0px;
-  left: 700px;
+  bottom: 8px;
+  left: 662px;
   max-width: 230px;
   height: 220px;
   display: flex;
@@ -225,8 +222,8 @@ body {
 
 .step__4 {
   position: relative;
-  bottom: 0px;
-  left: 1000px;
+  bottom: 57px;
+  left: 969px;
 }
 
 .item__title {
@@ -257,30 +254,40 @@ body {
   font-size: 1.6rem;
   line-height: 24px;
   width: 296px;
-  padding-top: 0.8em;
+  // padding-top: 0.8em;
 }
 
 .about__item-arrow-left {
   position: relative;
-  top: 70px;
-  left: 50px;
+  top: 90px;
+  left: 82px;
+}
+
+.arrow-curved {
+  position: relative;
+  top: 81px;
+  left: 48px;
 }
 
 .about__item-arrow-right {
   position: relative;
-  top: 130px;
-  right: 50px;
+  top: 147px;
+  right: 72px;
 }
 
-.step__4-img {
+.step__3 {
+  margin-top: 63px;
+}
+
+.phone4 {
   transform: rotate(-75.56deg);
   position: absolute;
-  right: 530px;
-  top: 50px;
+  right: 433px;
+  top: 25px;
 }
 
 .about__footer {
-  padding: 30em 0 10em 0;
+  padding-top: 265px;
   text-align: center;
 }
 
@@ -299,7 +306,7 @@ body {
 
 .price__header {
   display: flex;
-  padding: 5em 0 11em;
+  padding: 56px 10px 106px;
 }
 
 .price__title {
@@ -333,12 +340,12 @@ body {
 
 .small-phone img {
   position: absolute;
-  top: -85px;
-  left: 5px;
+  top: -82px;
+  left: 38px;
 }
 
 .price-body__text {
-  padding: 3em 0 3em 13em;
+  padding: 40px 175px 30px;
 }
 
 .price-body__subtitle {
@@ -360,7 +367,7 @@ body {
 .price__versions {
   border-top: 1px solid #f5b035;
   border-bottom: 1px solid #f5b035;
-  padding: 2em 24em 4em 0;
+  padding-right: 198px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -368,7 +375,7 @@ body {
 
 .basic-version {
   text-align: center;
-  padding: 0 12em 0 0;
+  padding: 22px 129px 31px 0px;
 }
 .basic-version__title {
   font-family: 'Montserrat', sans-serif;
@@ -376,14 +383,15 @@ body {
   font-size: 2rem;
   line-height: 24px;
   color: #ee8c19;
+  padding-bottom: 34px;
 }
 .basic-version__price {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2.6rem;
   line-height: 30px;
-  padding: 2em 0 0 0;
   max-width: 130px;
+  //   padding: 2em 0 0 0;
 }
 .premium-version {
 }
@@ -398,12 +406,12 @@ body {
 }
 
 .price-func {
-  padding: 3em 4em;
+  padding: 29px 55px 0;
 }
 
 .func__list {
   display: grid;
-  grid-template-columns: 65% 15% 15%;
+  grid-template-columns: 63% 19% 0%;
 }
 .list__item {
   font-family: 'Montserrat', sans-serif;
@@ -417,7 +425,7 @@ body {
 }
 
 .register {
-  padding: 0 4em 3em 4em;
+  padding: 17px 54px 31px;
 }
 
 .register__title {
@@ -428,7 +436,7 @@ body {
 }
 
 .reg__btns {
-  padding: 2em 0;
+  padding-top: 25px;
 }
 
 .reg-btn {
@@ -438,8 +446,10 @@ body {
   line-height: 24px;
   border: 1px solid #e15702;
   border-radius: 5px;
-  padding: 8px 50px;
-  margin: 0 33px 0 0px;
+  //   padding: 8px 50px;
+  height: 40px;
+  width: 181px;
+  margin: 0 25px 0 0px;
   color: #fff;
   background-color: transparent;
   color: #e15702;
