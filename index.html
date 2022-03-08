@@ -4,16 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Honeti</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header id="header" class="header">
       <div id="tr"></div>
       <div class="container">
         <div class="header__nav">
-          <div class="header__left-block header__left-block-border">
+          <div class="header__logo-block logo-border">
             <div class="header__logo">LOGO</div>
           </div>
           <div class="header__right-block">
@@ -31,9 +30,8 @@
             </nav>
           </div>
         </div>
-
-        <div class="header__descr">
-          <div class="descr__left-block">
+        <div class="hero">
+          <div class="hero__left-block">
             <div class="left-block__title">Poznaj Lorem Ipsum!</div>
             <div class="left-block__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -42,18 +40,17 @@
               accumsan lacus vel facilisis.
             </div>
             <div class="left-block__btns">
-              <button data-modal class="btn">O aplikacji</button>
-              <button data-modal class="btn">Pobierz</button>
+              <button class="btn hero-btn">O aplikacji</button>
+              <button class="btn hero-btn">Pobierz</button>
             </div>
           </div>
-          <div class="descr__right-block">
+          <div class="hero__right-block">
             <img src="img/phone_hand_1.png" alt="" />
           </div>
         </div>
       </div>
     </header>
     <div class="curved">
-      <div class="curved__bg"></div>
     </div>
     <div class="about">
       <div class="about__body container">
@@ -177,28 +174,23 @@
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
+              <div class="list__item">dolor sit amet, consectetur</div>
               <div class="check"><img src="img/check.png" alt="" /></div>
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
+              <div class="list__item">adipiscing elit, sed do eiusmod</div>
               <div class="check"><img src="img/check.png" alt="" /></div>
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
+              <div class="list__item">tempor incididunt</div>
               <div class="check"><img src="img/check.png" alt="" /></div>
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
-              <div class="check"><img src="img/close.png" alt="" /></div>
+              <div class="list__item">ut labore et dolore</div>
               <div class="check"><img src="img/check.png" alt="" /></div>
-            </div>
-            <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
-              <div class="check"><img src="img/close.png" alt="" /></div>
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
@@ -207,48 +199,54 @@
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
             <div class="func__list">
-              <div class="list__item">Lorem ipsum</div>
+              <div class="list__item">Ipsum dolor sit amet ut labore et</div>
+              <div class="check"><img src="img/close.png" alt="" /></div>
+              <div class="check"><img src="img/check.png" alt="" /></div>
+            </div>
+            <div class="func__list">
+              <div class="list__item">ut labore et dolore magna aliqua</div>
               <div class="check"><img src="img/close.png" alt="" /></div>
               <div class="check"><img src="img/check.png" alt="" /></div>
             </div>
           </div>
           <div class="register">
             <div class="register__title">Zarejestruj się i wyprobuj!</div>
-            <div class="reg__btns">
-              <button class="reg-btn">Rejestracja</button>
-              <button class="reg-btn popup-link">Logowanie</button>
+            <div class="reg-btns">
+              <a href="#" class="btn reg-btn">Rejestracja</a>
+              <a href="#login" class="btn reg-btn popup-link">Logowanie</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- modal -->
     <div id="login" class="popup">
       <div class="popup__body">
         <div class="popup__content">
-          <a href="#" class="popup__close close-popup">X</a>
-          <form class="popup__text">
+          <a href="#" class="popup__close close-popup"><img src="img/close-blk.png" alt=""></a>
+          <form action="" class="popup__text">
             <div class="popup__title">Logowanie</div>
             <input
               required
               placeholder="Username"
               name="name"
               type="text"
-              class="popup__input"
+              class="popup__input un"
             />
             <input
               required
               placeholder="Hasło"
               name="password"
               type="text"
-              class="popup__input"
+              class="popup__input pass"
             />
-            <button class="log-btn">Zaloguj się</button>
+            <a class="submit" >Zaloguj się</a>
+            <p class="forgot" ><a href="#">Forgot Password?</p>
           </form>
         </div>
       </div>
     </div>
+
     <!-- <script src="script.js"></script> -->
   </body>
 </html>

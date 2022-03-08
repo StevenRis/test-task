@@ -1,0 +1,43 @@
+.left-block__btns {
+  padding: 33px 0;
+}
+
+.reg-btns {
+  padding: 33px 0 26px;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.hero-btn {
+  border: 1px solid #ffffff;
+  margin: 0 29px 0 0px;
+  width: 180px;
+  height: 41px;
+  padding: 8px 20px;
+}
+
+.reg-btn {
+  line-height: 24px;
+  border: 1px solid #e15702;
+  padding: 8px 48px;
+  margin: 0 25px 0 0px;
+  color: #e15702;
+}
+
+.btn:hover {
+  color: #ee8c19;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.reg-btn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: linear-gradient(180deg, #f3a300 0%, #f07a13 100%);
+}
