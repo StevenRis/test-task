@@ -23,6 +23,25 @@ body {
   scroll-behavior: smooth;
 }
 
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 49%;
+  }
+}
+
 body {
   overflow-x: hidden;
 }
@@ -43,12 +62,11 @@ a {
 .header__nav,
 .about__item,
 .header__links,
-.item__title,
+.about-item__title,
 .price__header {
   display: flex;
 }
 
-.header-logo,
 .left-block__title,
 .about__title,
 .price__title,
@@ -76,6 +94,8 @@ a {
 }
 
 .header__logo a {
+  font-weight: 700;
+
   font-size: 6rem;
   line-height: 73px;
   color: rgba(255, 255, 255, 0.2);
@@ -108,12 +128,6 @@ a {
   margin: 0 1px;
 }
 
-.hero {
-  display: grid;
-  grid-template-columns: 57% 43%;
-  justify-content: space-between;
-}
-
 .hero__left-block {
   padding: 122px 58px;
   color: #ffffff;
@@ -129,6 +143,12 @@ a {
   line-height: 24px;
   padding-top: 16px;
 }
+
+/* .hero {
+  display: grid;
+  grid-template-columns: 57% 43%;
+  justify-content: space-between;
+} */
 
 .hero__right-block img {
   position: relative;
@@ -220,7 +240,7 @@ a {
   left: 969px;
 }
 
-.item__title {
+.about-item__title {
   font-family: 'Love Ya Like A Sister', sans-serif;
   align-items: center;
   color: #ee8c19;
@@ -328,13 +348,13 @@ a {
 }
 
 .price-body__subtitle {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2rem;
   line-height: 24px;
 }
 
 .price-body__title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 4rem;
   line-height: 49px;
 }
@@ -397,3 +417,69 @@ a {
   font-size: 20px;
   line-height: 24px;
 }
+
+/* 1200px / 16px = 75em */
+/* @media (min-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+
+
+} */
+/* 980px / 16px = 61.25em */
+/* @media (min-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+} */
+
+/* 460px / 16px = 28.75em */
+/* @media (max-width: 28.75em) {
+  html {
+    font-size: 49%;
+  }
+
+  .header__nav {
+    max-width: 300px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .header__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__right-block {
+    display: none;
+  }
+
+  .hero__right-block {
+    display: none;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .hero__left-block {
+    padding: 50px 40px;
+  }
+
+  .left-block__btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  .curved {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 1px;
+    height: 1px;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+  }
+} */
