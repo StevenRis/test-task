@@ -2,11 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import '_btns.css';
-@import '_popup.css';
-@import '_mediaq.css';
-@import '_burger.css';
-
 /*Reset css styles*/
 * {
   padding: 0;
@@ -249,11 +244,12 @@ a {
   line-height: 18px;
   color: #fff;
   padding: 0px 20px;
+  transition: all 0.3s ease 0s;
 }
 
 .header__link:hover {
   color: #ee8c19;
-  background-color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 .vert-line {
@@ -323,6 +319,8 @@ a {
 
 @media (max-width: 767.98px) {
   .hero {
+    display: flex;
+    flex-direction: column;
     padding: 50px 50px;
   }
 
@@ -955,5 +953,94 @@ a {
 
   .register {
     padding: 17px 20px 31px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .price-section {
+    height: 100%;
+  }
+  .price__header {
+    padding: 56px 40px 106px 40px;
+  }
+
+  .price__subtitle {
+    position: relative;
+    top: 33px;
+    left: 12px;
+    font-weight: 500;
+  }
+
+  .price-body {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 40px;
+  }
+
+  .small-phone {
+    position: relative;
+  }
+
+  .small-phone img {
+    position: absolute;
+    top: -82px;
+    left: 0px;
+  }
+
+  .price-body__text {
+    padding: 40px 120px 30px;
+  }
+
+  .price__versions {
+    border-top: 1px solid #f5b035;
+    border-bottom: 1px solid #f5b035;
+    padding-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .basic-version {
+    padding: 22px 0px 31px 0px;
+  }
+  .basic-version__title {
+    padding-bottom: 10px;
+  }
+  .basic-version__price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 130px; */
+  }
+
+  .price-func {
+    padding: 29px 20px 0;
+  }
+
+  .func__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list__item {
+    max-width: 100px;
+  }
+
+  .list__item img {
+    color: #ee8c19;
+  }
+
+  .register {
+    padding: 17px 20px 31px;
+  }
+
+  .reg-btns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reg-btns > a {
+    margin: 10px 0;
   }
 }

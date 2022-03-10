@@ -1,0 +1,53 @@
+.menu-burger {
+  display: none;
+}
+
+.icon-menu__close {
+  display: none;
+  z-index: 5;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.icon-menu__close img {
+  height: 25px;
+}
+@media (max-width: 1023.98px) {
+  .menu-burger {
+    display: flex;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    z-index: 5;
+  }
+}
+
+.icon-menu {
+  position: relative;
+  flex: 0 0 30px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon-menu::before,
+.icon-menu::after {
+  content: '';
+  background-color: #000;
+  height: 2px;
+}
+
+.icon-menu span {
+  height: 2px;
+  background-color: #000;
+}
+
+.opened {
+  display: block;
+}
+
+.close {
+  display: none;
+}

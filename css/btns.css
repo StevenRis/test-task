@@ -19,6 +19,7 @@
   border-radius: 5px;
   color: #fff;
   background-color: transparent;
+  transition: all 0.3s ease 0s;
 }
 
 .hero-btn {
@@ -47,6 +48,7 @@
   color: #ee8c19;
   cursor: pointer;
   background-color: #fff;
+  transition: all 0.3s ease 0s;
 }
 
 .reg-btn:hover {
