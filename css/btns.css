@@ -23,11 +23,15 @@
 }
 
 .hero-btn {
-  border: 1px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  float: left;
+  border: 1px solid var(--white);
   margin: 0 29px 0 0px;
-  width: 180px;
+  width: 130px;
   height: 41px;
-  padding: 8px 20px;
+  text-align: center;
 }
 
 @media (max-width: 1023.98px) {
@@ -38,21 +42,21 @@
 
 .reg-btn {
   line-height: 24px;
-  border: 1px solid #e15702;
+  border: 1px solid var(--orange);
   padding: 8px 48px;
   margin: 0 25px 0 0px;
-  color: #e15702;
+  color: var(--orange);
 }
 
 .btn:hover {
-  color: #ee8c19;
+  color: var(--orange);
   cursor: pointer;
-  background-color: #fff;
+  background-color: var(--white);
   transition: all 0.3s ease 0s;
 }
 
 .reg-btn:hover {
   cursor: pointer;
-  color: #fff;
+  color: var(--white);
   background: linear-gradient(180deg, #f3a300 0%, #f07a13 100%);
 }

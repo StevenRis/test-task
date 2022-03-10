@@ -48,6 +48,10 @@
   color: #000;
 }
 
+.popup__close img {
+  width: 25px;
+}
+
 .popup__title {
   padding: 40px 0;
   color: #8c55aa;
@@ -60,12 +64,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-#tr {
-  position: fixed;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .popup__input {
@@ -97,10 +95,12 @@
   padding-top: 10px;
   font-size: 1.5rem;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease 0.1s;
 }
 
 .submit:hover {
   transform: scale(1.1);
+  transition: transform 0.3s ease 0.1s;
 }
 
 .forgot {
