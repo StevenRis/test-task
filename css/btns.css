@@ -1,8 +1,8 @@
 .left-block__btns {
-  padding: 33px 0;
+  padding: 34px 0;
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1023px) {
   .left-block__btns {
     display: flex;
     padding: 33px 0;
@@ -29,12 +29,12 @@
   float: left;
   border: 1px solid var(--white);
   margin: 0 29px 0 0px;
-  width: 130px;
+  width: 182px;
   height: 41px;
   text-align: center;
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1023px) {
   .hero-btn {
     padding: 0px 0px;
   }
@@ -43,8 +43,8 @@
 .reg-btn {
   line-height: 24px;
   border: 1px solid var(--orange);
-  padding: 8px 48px;
-  margin: 0 25px 0 0px;
+  padding: 9px 46px;
+  margin: 0 27px 0 0px;
   color: var(--orange);
 }
 
