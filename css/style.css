@@ -247,6 +247,11 @@ a {
   color: var(--grey-transparent);
 }
 
+/* .header__logo a:focus {
+  font-size: 6.2rem;
+  color: var(--orange);
+} */
+
 .header__links-items {
   padding-top: 10px;
 }
@@ -263,6 +268,11 @@ a {
 .header__link:hover {
   color: var(--orange);
   transition: all 0.3s ease 0s;
+}
+
+.header__link:focus {
+  font-size: 17px;
+  color: var(--orange);
 }
 
 .vert-line {
@@ -928,4 +938,11 @@ a {
   .reg-btns > a {
     margin: 10px 0;
   }
+}
+
+.tr {
+  position: fixed;
+  top: 0;
+  left: 0;
+  visibility: hidden;
 }

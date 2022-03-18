@@ -33,6 +33,10 @@
   justify-content: space-between;
 }
 
+.menu-burger a:focus {
+  border: 2px solid rgb(15, 230, 15);
+}
+
 .icon-menu::before,
 .icon-menu::after {
   content: '';

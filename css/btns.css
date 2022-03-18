@@ -48,15 +48,18 @@
   color: var(--orange);
 }
 
-.btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   color: var(--orange);
   cursor: pointer;
   background-color: var(--white);
   transition: all 0.3s ease 0s;
 }
 
-.reg-btn:hover {
+.reg-btn:hover,
+.reg-btn:focus {
   cursor: pointer;
   color: var(--white);
   background: linear-gradient(180deg, #f3a300 0%, #f07a13 100%);
+  transition: all 0.3s ease 0s;
 }

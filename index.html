@@ -4,244 +4,249 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/btns.css" />
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/popup.css" />
-
+    <!--  -->
     <title>Honeti</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__nav">
-          <div class="header__logo-block logo-border">
-            <div class="header__logo">
-              <a href="#">LOGO</a>
-              </div>
-          </div>
-          <div class="header__right-block">
-            <nav class="header__links">
-              <div class="header__links-items">
-                <a href="#" class="header__link">Start</a>
-                <a href="#about" class="header__link">Jak to działa?</a>
-                <a href="#price" class="header__link">Cennik</a>
-              </div>
-              <div class="vert-line"></div>
-              <div class="header__links-items">
-                <a href="#login" class="header__link popup-link">Logowanie</a>
-                <a href="" class="header__link">Rejestracja</a>
-              </div>
-            </nav>
-          </div>
-          <div class="menu-burger">
-            <a href="" class="icon-menu"><span></span></a>
-          </div>
-          <div class="header-mobile">
-            <nav class="header-mobile__links">
-              <div class="header__links-items">
-                <a href="#" class="header__link">Start</a>
-                <a href="#about" class="header__link">Jak to działa?</a>
-                <a href="#price" class="header__link">Cennik</a>
-                <a href="#login" class="header__link popup-link">Logowanie</a>
-                <a href="" class="header__link">Rejestracja</a>
-              </div>
-            <a href="" class="icon-menu__close menu-close"><svg height="25px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="25px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg></a>
-          </div>
-            </nav>
-          </div>
-        <div class="hero">
-          <div class="hero__left-block">
-            <div class="left-block__title"><h1>Poznaj Lorem Ipsum!</h1></div>
-            <div class="left-block__subtitle">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                accumsan lacus vel facilisis.</p>
+    <div class="wrapper">
+      <header id="home" class="header">
+        <div class="container">
+          <div class="header__nav">
+            <div  class="header__logo-block logo-border">
+              <div class="header__logo">
+                <a tabindex="-1" href="#" data-logo="Home">LOGO</a>
+                </div>
             </div>
-            <div class="left-block__btns">
-              <a class="btn hero-btn"><span>O aplikacji</span></a>
-              <a class="btn hero-btn"><span>Pobierz</span> </a>
+            <div class="header__right-block">
+              <nav class="header__links">
+                <div class="header__links-items">
+                  <a tabindex="0" href="#" class="header__link">Start</a>
+                  <a href="#about" class="header__link">Jak to działa?</a>
+                  <a href="#price" class="header__link">Cennik</a>
+                </div>
+                <div class="vert-line"></div>
+                <div class="header__links-items">
+                  <a href="#login" id="login" class="header__link popup-link" data-login="Login">Logowanie</a>
+                  <a href="#register" class="header__link">Rejestracja</a>
+                </div>
+              </nav>
             </div>
-          </div>
-          <div class="hero__right-block">
-            <img src="img/phone_hand_1.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="curved">
-      </div>
-      <section>
-        <div id="about" class="about">
-          <div class="about__body container">
-            <div class="about__header">
-              <div class="about__title"><h2>Jak to działa?</h2> </div>
+            <div class="menu-burger">
+              <a href="" class="icon-menu"><span></span></a>
             </div>
-            <div class="about__items">
-              <div class="about__item about-left-block step__1">
-                <div class="about__item-image-left rotated phone1">
-                  <img src="img/phone_big_1.png" alt="" />
+            <div class="header-mobile">
+              <nav class="header-mobile__links">
+                <div class="header__links-items">
+                  <a href="#" class="header__link">Start</a>
+                  <a href="#about" class="header__link">Jak to działa?</a>
+                  <a href="#price" class="header__link">Cennik</a>
+                  <a href="#login" id="login" class="header__link popup-link data-login="Login">Logowanie</a>
+                  <a href="" class="header__link">Rejestracja</a>
                 </div>
-                <div class="about__item-text-left">
-                  <div class="block">
-                    <div class="about-item__title">
-                      <div class="title__accent"><span>1</span> </div>
-                      <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
-                    </div>
-                    <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                  </div>
-                  <div class="about__item-arrow-left">
-                    <img src="img/arrow1.png" alt="" />
-                  </div>
-                </div>
+              <a href="" class="icon-menu__close menu-close"><svg height="25px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="25px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg></a>
+            </div>
+              </nav>
+            </div>
+          <div class="hero">
+            <div class="hero__left-block">
+              <div class="left-block__title"><h1>Poznaj Lorem Ipsum!</h1></div>
+              <div class="left-block__subtitle">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                  ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                  accumsan lacus vel facilisis.</p>
               </div>
-              <div class="about__item about-right-block step__2">
-                <div class="about__item-text-right">
-                  <div class="about__item-arrow-right">
-                    <img src="img/arrow2.png" alt="" />
-                  </div>
-                  <div class="block">
-                    <div class="about-item__title">
-                      <div class="title__accent"><span>2</span></div>
-                      <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
-                    </div>
-                    <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="about__item-image-right phone2">
-                  <img src="img/phone_big_1.png" alt="" />
-                </div>
-              </div>
-              <div class="about__item about-left-block step__3">
-                <div class="about__item-image-left phone3">
-                  <img src="img/phone_big_1.png" alt="" />
-                </div>
-                <div class="about__item-text-left">
-                  <div class="block">
-                    <div class="about-item__title">
-                      <div class="title__accent"><span>3</span></div>
-                      <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
-                    </div>
-                    <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                  </div>
-                  <div class="about__item-arrow-left arrow-curved">
-                    <img src="img/arrow3.png" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div class="about__item about-right-block">
-                <div class="about__item-image-right phone4">
-                  <img src="img/phone_big_1.png" alt="" />
-                </div>
-                <div class="about__item-text-right step__4">
-                  <div class="block">
-                    <div class="about-item__title">
-                      <div class="title__accent"><span>4</span></div>
-                      <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
-                    </div>
-                    <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="left-block__btns">
+                <a  tabindex="0" class="btn hero-btn"><span>O aplikacji</span></a>
+                <a  tabindex="0" class="btn hero-btn"><span>Pobierz</span> </a>
               </div>
             </div>
-            <div class="about__footer">
-              <div class="footer__title"><span>Lorem ipsum!</span></div>
+            <div class="hero__right-block">
+              <img src="img/phone_hand_1.png" alt="image of a phone" />
             </div>
           </div>
         </div>
-      </section>
-      <section>
-        <div id="price" class="price-section">
-          <div class="container">
-            <div class="price__header">
-              <div class="price__title"><h2>Cennik</h2></div>
-              <div class="price__subtitle"><span>Ile to kosztuje?</span></div>
-            </div>
-            <div class="price-body container">
-              <div class="small-phone">
-                <img src="img/phone_small.png" alt="" />
+      </header>
+      <main>
+        <div class="curved">
+        </div>
+        <section>
+          <div id="about" class="about">
+            <div class="about__body container">
+              <div class="about__header">
+                <div class="about__title"><h2>Jak to działa?</h2> </div>
               </div>
-              <div class="price-body__text">
-                <div class="price-body__subtitle"><span>Lorem ipsum</span></div>
-                <div class="price-body__title"><h3>Dolor sit amet</h3></div>
-              </div>
-              <div class="price__versions">
-                <div class="basic-version">
-                  <div class="basic-version__title"><span>Basic</span> </div>
-                  <div class="basic-version__price"><span>wersja darmowa</span></div>
+              <div class="about__items">
+                <div class="about__item about-left-block step__1">
+                  <div class="about__item-image-left rotated phone1">
+                    <img src="img/phone_big_1.png" alt="image of a phone" />
+                  </div>
+                  <div class="about__item-text-left">
+                    <div class="block">
+                      <div class="about-item__title">
+                        <div class="title__accent"><span>1</span> </div>
+                        <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
+                      </div>
+                      <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                    <div class="about__item-arrow-left">
+                      <img src="img/arrow1.png" alt="image of a phone" />
+                    </div>
+                  </div>
                 </div>
-                <div class="premium-version">
-                  <div class="basic-version__title"><span>Premium</span></div>
-                  <div class="basic-version__price"><span>79,99zł</span>
-                    <span class="discount"><span>30% taniej</span></span>
+                <div class="about__item about-right-block step__2">
+                  <div class="about__item-text-right">
+                    <div class="about__item-arrow-right">
+                      <img src="img/arrow2.png" alt="image of a phone" />
+                    </div>
+                    <div class="block">
+                      <div class="about-item__title">
+                        <div class="title__accent"><span>2</span></div>
+                        <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
+                      </div>
+                      <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="about__item-image-right phone2">
+                    <img src="img/phone_big_1.png" alt="image of a phone" />
+                  </div>
+                </div>
+                <div class="about__item about-left-block step__3">
+                  <div class="about__item-image-left phone3">
+                    <img src="img/phone_big_1.png" alt="image of a phone" />
+                  </div>
+                  <div class="about__item-text-left">
+                    <div class="block">
+                      <div class="about-item__title">
+                        <div class="title__accent"><span>3</span></div>
+                        <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
+                      </div>
+                      <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                    <div class="about__item-arrow-left arrow-curved">
+                      <img src="img/arrow3.png" alt="image of a phone" />
+                    </div>
+                  </div>
+                </div>
+                <div class="about__item about-right-block">
+                  <div class="about__item-image-right phone4">
+                    <img src="img/phone_big_1.png" alt="image of a phone" />
+                  </div>
+                  <div class="about__item-text-right step__4">
+                    <div class="block">
+                      <div class="about-item__title">
+                        <div class="title__accent"><span>4</span></div>
+                        <div class="title"><h3>Lorem ipsum dolor sit amet</h3></div>
+                      </div>
+                      <div class="item__subtitle"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="price-func">
-                <div class="func__list">
-                  <div class="list__item"><span>Lorem ipsum</span></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>dolor sit amet, consectetur</span></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>adipiscing elit, sed do eiusmod</span></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>tempor incididunt</span></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>ut labore et dolore</span></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>Lorem ipsum</span></div>
-                  <div class="check"><img src="img/close.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>Ipsum dolor sit amet ut labore et</span></div>
-                  <div class="check"><img src="img/close.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
-                <div class="func__list">
-                  <div class="list__item"><span>ut labore et dolore magna aliqua</span></div>
-                  <div class="check"><img src="img/close.png" alt="" /></div>
-                  <div class="check"><img src="img/check.png" alt="" /></div>
-                </div>
+              <div class="about__footer">
+                <div class="footer__title"><span>Lorem ipsum!</span></div>
               </div>
-              <div class="register">
-                <div class="register__title"><h3>Zarejestruj się i wyprobuj!</h3></div>
-                <div class="reg-btns">
-                  <a href="#" class="btn reg-btn"><span>Rejestracja</span></a>
-                  <a href="#login" class="btn reg-btn popup-link"><span>Logowanie</span></a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div id="price" class="price-section">
+            <div class="container">
+              <div class="price__header">
+                <div class="price__title"><h2>Cennik</h2></div>
+                <div class="price__subtitle"><span>Ile to kosztuje?</span></div>
+              </div>
+              <div class="price-body container">
+                <div class="small-phone">
+                  <img src="img/phone_small.png" alt="image of a phone" />
+                </div>
+                <div class="price-body__text">
+                  <div class="price-body__subtitle"><span>Lorem ipsum</span></div>
+                  <div class="price-body__title"><h3>Dolor sit amet</h3></div>
+                </div>
+                <div class="price__versions">
+                  <div class="basic-version">
+                    <div class="basic-version__title"><span>Basic</span> </div>
+                    <div class="basic-version__price"><span>wersja darmowa</span></div>
+                  </div>
+                  <div class="premium-version">
+                    <div class="basic-version__title"><span>Premium</span></div>
+                    <div class="basic-version__price"><span>79,99zł</span>
+                      <span class="discount"><span>30% taniej</span></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="price-func">
+                  <div class="func__list">
+                    <div class="list__item"><span>Lorem ipsum</span></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>dolor sit amet, consectetur</span></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>adipiscing elit, sed do eiusmod</span></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>tempor incididunt</span></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>ut labore et dolore</span></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>Lorem ipsum</span></div>
+                    <div class="check"><img src="img/close.png" alt="close sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>Ipsum dolor sit amet ut labore et</span></div>
+                    <div class="check"><img src="img/close.png" alt="close sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                  <div class="func__list">
+                    <div class="list__item"><span>ut labore et dolore magna aliqua</span></div>
+                    <div class="check"><img src="img/close.png" alt="close sign" /></div>
+                    <div class="check"><img src="img/check.png" alt="check sign" /></div>
+                  </div>
+                </div>
+                <div class="register">
+                  <div class="register__title"><h3>Zarejestruj się i wyprobuj!</h3></div>
+                  <div class="reg-btns">
+                    <a href="#" class="btn reg-btn"><span>Rejestracja</span></a>
+                    <a href="#login" id="login" class="btn reg-btn popup-link" data-login="Login"><span>Logowanie</span></a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <div id="login" class="popup">
+        </section>
+
+      </main>
+      <!-- modal -->
+      <div id="login" class="popup box" >
         <div class="popup__body">
           <div class="popup__content">
-            <a href="#" class="popup__close close-popup"><svg height="26px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="26px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="purple" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg></a>
+            <a href="#" class="popup__close close-popup"><svg height="26px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="26px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path class="svg" d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5  c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9  c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/></svg></a>
             <form action="" class="popup__text">
               <div class="popup__title">Zaloguj się</div>
               <input
@@ -264,7 +269,10 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>
+    
+  <!--  -->
     <script src="js/script.js"></script>
+    <!--  -->
   </body>
 </html>
